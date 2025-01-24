@@ -1,0 +1,671 @@
+--output.shape: torch.Size([1, 50])
+--Base Params:86.23M, MACs:103.40G
+--Base Acc:0.0000
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=72, bias=True)
+  (key): Linear(in_features=768, out_features=72, bias=True)
+  (value): Linear(in_features=768, out_features=72, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 6 all_head_size: 72
+
+>-------------------Summary---------------------
+--Base Param: 86.23M, Macs: 103.40G, Acc: 0.0000%
+--Pruned Param: 9.55M, Macs: 10.38G, Acc: 0.0000%
+<------------------------------------------------
+--output.shape: torch.Size([1, 50])
+--Base Params:86.23M, MACs:103.40G
+--Loading: pths/esc50_1-ast-seed_42.pth
+--Base Acc:0.9450
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+--Epoch 1/30: Loss-t/v: 0.0346/0.2349, Acc-t/v: 0.7169/0.9450, Best Acc 0.9450 Time: 40.01s
+--Epoch 2/30: Loss-t/v: 0.0286/0.2247, Acc-t/v: 0.7662/0.9300, Best Acc 0.9450 Time: 79.51s
+--Epoch 3/30: Loss-t/v: 0.0264/0.2219, Acc-t/v: 0.7931/0.9425, Best Acc 0.9450 Time: 119.58s
+--Epoch 4/30: Loss-t/v: 0.0383/0.2338, Acc-t/v: 0.6906/0.9275, Best Acc 0.9450 Time: 159.42s
+--Epoch 5/30: Loss-t/v: 0.0259/0.3355, Acc-t/v: 0.7900/0.8975, Best Acc 0.9450 Time: 199.55s
+--Epoch 6/30: Loss-t/v: 0.0254/0.2403, Acc-t/v: 0.8013/0.9350, Best Acc 0.9450 Time: 239.97s
+--Epoch 7/30: Loss-t/v: 0.0169/0.2817, Acc-t/v: 0.8625/0.9125, Best Acc 0.9450 Time: 280.72s
+--Epoch 8/30: Loss-t/v: 0.0257/0.2584, Acc-t/v: 0.7937/0.9275, Best Acc 0.9450 Time: 321.70s
+--Epoch 9/30: Loss-t/v: 0.0259/0.2585, Acc-t/v: 0.7894/0.9325, Best Acc 0.9450 Time: 362.52s
+--Epoch 10/30: Loss-t/v: 0.0361/0.2571, Acc-t/v: 0.7119/0.9200, Best Acc 0.9450 Time: 403.17s
+--Epoch 11/30: Loss-t/v: 0.0277/0.2325, Acc-t/v: 0.7775/0.9275, Best Acc 0.9450 Time: 443.65s
+--Epoch 12/30: Loss-t/v: 0.0281/0.2491, Acc-t/v: 0.7769/0.9275, Best Acc 0.9450 Time: 484.10s
+--Epoch 13/30: Loss-t/v: 0.0365/0.2134, Acc-t/v: 0.7050/0.9375, Best Acc 0.9450 Time: 524.23s
+--Epoch 14/30: Loss-t/v: 0.0233/0.3114, Acc-t/v: 0.8194/0.8900, Best Acc 0.9450 Time: 564.70s
+--Epoch 15/30: Loss-t/v: 0.0291/0.2272, Acc-t/v: 0.7656/0.9300, Best Acc 0.9450 Time: 605.13s
+--Epoch 16/30: Loss-t/v: 0.0242/0.2489, Acc-t/v: 0.8056/0.9375, Best Acc 0.9450 Time: 645.80s
+--Epoch 17/30: Loss-t/v: 0.0253/0.2836, Acc-t/v: 0.8044/0.9125, Best Acc 0.9450 Time: 686.64s
+--Epoch 18/30: Loss-t/v: 0.0206/0.2619, Acc-t/v: 0.8331/0.9300, Best Acc 0.9450 Time: 727.66s
+--Epoch 19/30: Loss-t/v: 0.0135/0.2466, Acc-t/v: 0.8919/0.9300, Best Acc 0.9450 Time: 769.18s
+--Epoch 20/30: Loss-t/v: 0.0274/0.2104, Acc-t/v: 0.7756/0.9375, Best Acc 0.9450 Time: 810.79s
+--Epoch 21/30: Loss-t/v: 0.0309/0.2575, Acc-t/v: 0.7538/0.9250, Best Acc 0.9450 Time: 852.46s
+--Epoch 22/30: Loss-t/v: 0.0235/0.2443, Acc-t/v: 0.8100/0.9225, Best Acc 0.9450 Time: 894.05s
+--Epoch 23/30: Loss-t/v: 0.0255/0.2396, Acc-t/v: 0.7956/0.9300, Best Acc 0.9450 Time: 935.56s
+--Epoch 24/30: Loss-t/v: 0.0111/0.2527, Acc-t/v: 0.9025/0.9375, Best Acc 0.9450 Time: 976.50s
+--Epoch 25/30: Loss-t/v: 0.0252/0.2485, Acc-t/v: 0.7987/0.9350, Best Acc 0.9450 Time: 1017.47s
+--Epoch 26/30: Loss-t/v: 0.0260/0.2522, Acc-t/v: 0.7875/0.9375, Best Acc 0.9450 Time: 1058.07s
+--Epoch 27/30: Loss-t/v: 0.0230/0.2392, Acc-t/v: 0.8187/0.9325, Best Acc 0.9450 Time: 1098.79s
+--Epoch 28/30: Loss-t/v: 0.0329/0.2144, Acc-t/v: 0.7350/0.9475, Best Acc 0.9475 Time: 1139.65s
+--Epoch 29/30: Loss-t/v: 0.0159/0.2461, Acc-t/v: 0.8762/0.9175, Best Acc 0.9475 Time: 1180.95s
+--Epoch 30/30: Loss-t/v: 0.0208/0.2530, Acc-t/v: 0.8325/0.9250, Best Acc 0.9475 Time: 1222.35s
+--Post Train Acc:0.9250
+>-------------------Summary---------------------
+--Base Param: 86.23M, Macs: 103.40G, Acc: 94.5000%
+--Pruned Param: 80.44M, Macs: 96.38G, Acc: 92.5000%
+<------------------------------------------------
+--output.shape: torch.Size([1, 50])
+--Base Params:86.23M, MACs:103.40G
+--Loading: pths/esc50_1-ast-seed_42.pth
+--Base Acc:0.9450
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+--Epoch 1/30: Loss-t/v: 0.0180/0.2433, Acc-t/v: 0.8531/0.9300, Best Acc 0.9300 Time: 39.09s
+--Epoch 2/30: Loss-t/v: 0.0160/0.2741, Acc-t/v: 0.8738/0.9400, Best Acc 0.9400 Time: 78.80s
+--Epoch 3/30: Loss-t/v: 0.0273/0.2137, Acc-t/v: 0.7844/0.9350, Best Acc 0.9400 Time: 118.27s
+--Epoch 4/30: Loss-t/v: 0.0212/0.2380, Acc-t/v: 0.8306/0.9325, Best Acc 0.9400 Time: 157.44s
+--Epoch 5/30: Loss-t/v: 0.0250/0.2337, Acc-t/v: 0.8025/0.9325, Best Acc 0.9400 Time: 196.17s
+--Epoch 6/30: Loss-t/v: 0.0332/0.3513, Acc-t/v: 0.7494/0.8900, Best Acc 0.9400 Time: 234.58s
+--Epoch 7/30: Loss-t/v: 0.0220/0.2615, Acc-t/v: 0.8269/0.9325, Best Acc 0.9400 Time: 273.19s
+--Epoch 8/30: Loss-t/v: 0.0319/0.2888, Acc-t/v: 0.7438/0.9100, Best Acc 0.9400 Time: 311.61s
+--Epoch 9/30: Loss-t/v: 0.0299/0.2549, Acc-t/v: 0.7625/0.9300, Best Acc 0.9400 Time: 350.35s
+--Epoch 10/30: Loss-t/v: 0.0203/0.2421, Acc-t/v: 0.8381/0.9300, Best Acc 0.9400 Time: 389.31s
+--Epoch 11/30: Loss-t/v: 0.0245/0.2488, Acc-t/v: 0.8037/0.9400, Best Acc 0.9400 Time: 428.48s
+--Epoch 12/30: Loss-t/v: 0.0248/0.2979, Acc-t/v: 0.7975/0.9150, Best Acc 0.9400 Time: 467.96s
+--Epoch 13/30: Loss-t/v: 0.0207/0.2381, Acc-t/v: 0.8363/0.9325, Best Acc 0.9400 Time: 507.73s
+--Epoch 14/30: Loss-t/v: 0.0291/0.2284, Acc-t/v: 0.7638/0.9325, Best Acc 0.9400 Time: 547.59s
+--Epoch 15/30: Loss-t/v: 0.0359/0.2221, Acc-t/v: 0.7100/0.9400, Best Acc 0.9400 Time: 587.58s
+--Epoch 16/30: Loss-t/v: 0.0113/0.2244, Acc-t/v: 0.9119/0.9400, Best Acc 0.9400 Time: 627.25s
+--Epoch 17/30: Loss-t/v: 0.0126/0.2246, Acc-t/v: 0.8944/0.9425, Best Acc 0.9425 Time: 666.57s
+--Epoch 18/30: Loss-t/v: 0.0220/0.2308, Acc-t/v: 0.8187/0.9400, Best Acc 0.9425 Time: 705.53s
+--Epoch 19/30: Loss-t/v: 0.0258/0.2402, Acc-t/v: 0.7963/0.9250, Best Acc 0.9425 Time: 744.48s
+--Epoch 20/30: Loss-t/v: 0.0228/0.2302, Acc-t/v: 0.8156/0.9375, Best Acc 0.9425 Time: 783.00s
+--Epoch 21/30: Loss-t/v: 0.0166/0.2259, Acc-t/v: 0.8644/0.9400, Best Acc 0.9425 Time: 821.33s
+--Epoch 22/30: Loss-t/v: 0.0273/0.2045, Acc-t/v: 0.7750/0.9400, Best Acc 0.9425 Time: 860.05s
+--Epoch 23/30: Loss-t/v: 0.0221/0.2273, Acc-t/v: 0.8194/0.9325, Best Acc 0.9425 Time: 898.87s
+--Epoch 24/30: Loss-t/v: 0.0167/0.2367, Acc-t/v: 0.8675/0.9275, Best Acc 0.9425 Time: 937.93s
+--Epoch 25/30: Loss-t/v: 0.0311/0.2172, Acc-t/v: 0.7462/0.9375, Best Acc 0.9425 Time: 977.31s
+--Epoch 26/30: Loss-t/v: 0.0181/0.2033, Acc-t/v: 0.8481/0.9450, Best Acc 0.9450 Time: 1016.69s
+--Epoch 27/30: Loss-t/v: 0.0295/0.2324, Acc-t/v: 0.7631/0.9375, Best Acc 0.9450 Time: 1056.48s
+--Epoch 28/30: Loss-t/v: 0.0289/0.2679, Acc-t/v: 0.7694/0.9275, Best Acc 0.9450 Time: 1096.27s
+--Epoch 29/30: Loss-t/v: 0.0148/0.2356, Acc-t/v: 0.8812/0.9375, Best Acc 0.9450 Time: 1135.84s
+--Epoch 30/30: Loss-t/v: 0.0219/0.2265, Acc-t/v: 0.8213/0.9375, Best Acc 0.9450 Time: 1174.99s
+--Post Train Acc:0.9375
+>-------------------Summary---------------------
+--Base Param: 86.23M, Macs: 103.40G, Acc: 94.5000%
+--Pruned Param: 74.66M, Macs: 89.36G, Acc: 93.7500%
+<------------------------------------------------
+--output.shape: torch.Size([1, 50])
+--Base Params:86.23M, MACs:103.40G
+--Loading: pths/esc50_1-ast-seed_42.pth
+--Base Acc:0.9450
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=756, bias=True)
+  (key): Linear(in_features=768, out_features=756, bias=True)
+  (value): Linear(in_features=768, out_features=756, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 63 all_head_size: 756
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+--Epoch 1/30: Loss-t/v: 0.0276/0.2574, Acc-t/v: 0.7812/0.9300, Best Acc 0.9300 Time: 37.32s
+--Epoch 2/30: Loss-t/v: 0.0246/0.3094, Acc-t/v: 0.8063/0.9100, Best Acc 0.9300 Time: 74.47s
+--Epoch 3/30: Loss-t/v: 0.0287/0.3321, Acc-t/v: 0.7681/0.9125, Best Acc 0.9300 Time: 112.05s
+--Epoch 4/30: Loss-t/v: 0.0315/0.3197, Acc-t/v: 0.7419/0.9225, Best Acc 0.9300 Time: 149.48s
+--Epoch 5/30: Loss-t/v: 0.0289/0.3052, Acc-t/v: 0.7750/0.9200, Best Acc 0.9300 Time: 187.29s
+--Epoch 6/30: Loss-t/v: 0.0279/0.2821, Acc-t/v: 0.7781/0.9100, Best Acc 0.9300 Time: 225.18s
+--Epoch 7/30: Loss-t/v: 0.0414/0.2354, Acc-t/v: 0.6744/0.9325, Best Acc 0.9325 Time: 263.26s
+--Epoch 8/30: Loss-t/v: 0.0274/0.2641, Acc-t/v: 0.7825/0.9200, Best Acc 0.9325 Time: 301.14s
+--Epoch 9/30: Loss-t/v: 0.0307/0.2857, Acc-t/v: 0.7600/0.9150, Best Acc 0.9325 Time: 339.33s
+--Epoch 10/30: Loss-t/v: 0.0335/0.2402, Acc-t/v: 0.7375/0.9225, Best Acc 0.9325 Time: 377.34s
+--Epoch 11/30: Loss-t/v: 0.0198/0.2894, Acc-t/v: 0.8475/0.9150, Best Acc 0.9325 Time: 415.62s
+--Epoch 12/30: Loss-t/v: 0.0145/0.2582, Acc-t/v: 0.8819/0.9100, Best Acc 0.9325 Time: 453.89s
+--Epoch 13/30: Loss-t/v: 0.0115/0.3250, Acc-t/v: 0.9050/0.9200, Best Acc 0.9325 Time: 492.14s
+--Epoch 14/30: Loss-t/v: 0.0193/0.2716, Acc-t/v: 0.8444/0.9175, Best Acc 0.9325 Time: 529.72s
+--Epoch 15/30: Loss-t/v: 0.0191/0.2557, Acc-t/v: 0.8475/0.9250, Best Acc 0.9325 Time: 567.87s
+--Epoch 16/30: Loss-t/v: 0.0188/0.2363, Acc-t/v: 0.8475/0.9350, Best Acc 0.9350 Time: 605.21s
+--Epoch 17/30: Loss-t/v: 0.0323/0.2887, Acc-t/v: 0.7369/0.9275, Best Acc 0.9350 Time: 642.29s
+--Epoch 18/30: Loss-t/v: 0.0190/0.2741, Acc-t/v: 0.8431/0.9125, Best Acc 0.9350 Time: 679.51s
+--Epoch 19/30: Loss-t/v: 0.0308/0.2084, Acc-t/v: 0.7581/0.9350, Best Acc 0.9350 Time: 717.12s
+--Epoch 20/30: Loss-t/v: 0.0135/0.2318, Acc-t/v: 0.8931/0.9350, Best Acc 0.9350 Time: 754.83s
+--Epoch 21/30: Loss-t/v: 0.0222/0.2348, Acc-t/v: 0.8250/0.9400, Best Acc 0.9400 Time: 792.42s
+--Epoch 22/30: Loss-t/v: 0.0281/0.2608, Acc-t/v: 0.7825/0.9225, Best Acc 0.9400 Time: 830.42s
+--Epoch 23/30: Loss-t/v: 0.0136/0.2345, Acc-t/v: 0.8888/0.9275, Best Acc 0.9400 Time: 868.34s
+--Epoch 24/30: Loss-t/v: 0.0308/0.3272, Acc-t/v: 0.7531/0.8925, Best Acc 0.9400 Time: 906.38s
+--Epoch 25/30: Loss-t/v: 0.0212/0.2447, Acc-t/v: 0.8306/0.9200, Best Acc 0.9400 Time: 944.82s
+--Epoch 26/30: Loss-t/v: 0.0197/0.2457, Acc-t/v: 0.8400/0.9250, Best Acc 0.9400 Time: 983.18s
+--Epoch 27/30: Loss-t/v: 0.0244/0.2407, Acc-t/v: 0.8037/0.9350, Best Acc 0.9400 Time: 1021.38s
+--Epoch 28/30: Loss-t/v: 0.0168/0.2645, Acc-t/v: 0.8619/0.9175, Best Acc 0.9400 Time: 1059.36s
+--Epoch 29/30: Loss-t/v: 0.0190/0.2227, Acc-t/v: 0.8438/0.9425, Best Acc 0.9425 Time: 1096.94s
+--Epoch 30/30: Loss-t/v: 0.0209/0.2466, Acc-t/v: 0.8325/0.9300, Best Acc 0.9425 Time: 1134.20s
+--Post Train Acc:0.9300
+>-------------------Summary---------------------
+--Base Param: 86.23M, Macs: 103.40G, Acc: 94.5000%
+--Pruned Param: 68.84M, Macs: 82.30G, Acc: 93.0000%
+<------------------------------------------------
+--output.shape: torch.Size([1, 50])
+--Base Params:86.23M, MACs:103.40G
+--Loading: pths/esc50_1-ast-seed_42.pth
+--Base Acc:0.9450
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=636, bias=True)
+  (key): Linear(in_features=768, out_features=636, bias=True)
+  (value): Linear(in_features=768, out_features=636, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 53 all_head_size: 636
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+--Epoch 1/30: Loss-t/v: 0.0271/0.2447, Acc-t/v: 0.7969/0.9400, Best Acc 0.9400 Time: 35.57s
+--Epoch 2/30: Loss-t/v: 0.0338/0.2622, Acc-t/v: 0.7325/0.9300, Best Acc 0.9400 Time: 71.05s
+--Epoch 3/30: Loss-t/v: 0.0215/0.2407, Acc-t/v: 0.8300/0.9375, Best Acc 0.9400 Time: 106.94s
