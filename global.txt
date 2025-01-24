@@ -398,3 +398,138 @@ num_heads: 12 head_dims: 64 all_head_size: 768
 --Epoch 24/30: Loss-t/v: 0.0167/0.2369, Acc-t/v: 0.8675/0.9275, Best Acc 0.9425 Time: 2037.43s
 --Epoch 25/30: Loss-t/v: 0.0311/0.2176, Acc-t/v: 0.7462/0.9375, Best Acc 0.9425 Time: 2121.09s
 --Epoch 26/30: Loss-t/v: 0.0181/0.2034, Acc-t/v: 0.8481/0.9450, Best Acc 0.9450 Time: 2205.10s
+--Epoch 27/30: Loss-t/v: 0.0295/0.2326, Acc-t/v: 0.7631/0.9375, Best Acc 0.9450 Time: 2276.87s
+--Epoch 28/30: Loss-t/v: 0.0289/0.2678, Acc-t/v: 0.7694/0.9275, Best Acc 0.9450 Time: 2330.88s
+--Epoch 29/30: Loss-t/v: 0.0148/0.2356, Acc-t/v: 0.8812/0.9375, Best Acc 0.9450 Time: 2414.00s
+--Epoch 30/30: Loss-t/v: 0.0219/0.2266, Acc-t/v: 0.8213/0.9375, Best Acc 0.9450 Time: 2501.73s
+--Post Train Acc:0.9375
+>-------------------Summary---------------------
+--Base Param: 86.23M, Macs: 103.40G, Acc: 94.5000%
+--Pruned Param: 74.66M, Macs: 89.36G, Acc: 93.7500%
+<------------------------------------------------
+--output.shape: torch.Size([1, 50])
+--Base Params:86.23M, MACs:103.40G
+--Loading: pths/esc50_1-ast-seed_42.pth
+--Base Acc:0.9450
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=756, bias=True)
+  (key): Linear(in_features=768, out_features=756, bias=True)
+  (value): Linear(in_features=768, out_features=756, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 63 all_head_size: 756
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+ASTSdpaSelfAttention(
+  (query): Linear(in_features=768, out_features=768, bias=True)
+  (key): Linear(in_features=768, out_features=768, bias=True)
+  (value): Linear(in_features=768, out_features=768, bias=True)
+  (dropout): Dropout(p=0.0, inplace=False)
+)
+num_heads: 12 head_dims: 64 all_head_size: 768 =>
+num_heads: 12 head_dims: 64 all_head_size: 768
+
+--Epoch 1/30: Loss-t/v: 0.0276/0.2574, Acc-t/v: 0.7812/0.9300, Best Acc 0.9300 Time: 81.92s
+--Epoch 2/30: Loss-t/v: 0.0246/0.3094, Acc-t/v: 0.8063/0.9100, Best Acc 0.9300 Time: 161.74s
+--Epoch 3/30: Loss-t/v: 0.0287/0.3321, Acc-t/v: 0.7681/0.9125, Best Acc 0.9300 Time: 242.37s
+--Epoch 4/30: Loss-t/v: 0.0315/0.3196, Acc-t/v: 0.7419/0.9225, Best Acc 0.9300 Time: 323.96s
+--Epoch 5/30: Loss-t/v: 0.0289/0.3053, Acc-t/v: 0.7750/0.9200, Best Acc 0.9300 Time: 408.29s
+--Epoch 6/30: Loss-t/v: 0.0279/0.2822, Acc-t/v: 0.7781/0.9100, Best Acc 0.9300 Time: 491.25s
+--Epoch 7/30: Loss-t/v: 0.0414/0.2355, Acc-t/v: 0.6744/0.9325, Best Acc 0.9325 Time: 572.32s
+--Epoch 8/30: Loss-t/v: 0.0274/0.2642, Acc-t/v: 0.7825/0.9200, Best Acc 0.9325 Time: 652.39s
+--Epoch 9/30: Loss-t/v: 0.0307/0.2857, Acc-t/v: 0.7600/0.9150, Best Acc 0.9325 Time: 732.52s
+--Epoch 10/30: Loss-t/v: 0.0335/0.2402, Acc-t/v: 0.7375/0.9225, Best Acc 0.9325 Time: 814.99s
+--Epoch 11/30: Loss-t/v: 0.0198/0.2893, Acc-t/v: 0.8475/0.9150, Best Acc 0.9325 Time: 898.18s
+--Epoch 12/30: Loss-t/v: 0.0145/0.2583, Acc-t/v: 0.8819/0.9100, Best Acc 0.9325 Time: 980.61s
+--Epoch 13/30: Loss-t/v: 0.0115/0.3249, Acc-t/v: 0.9050/0.9200, Best Acc 0.9325 Time: 1063.09s
+--Epoch 14/30: Loss-t/v: 0.0193/0.2717, Acc-t/v: 0.8444/0.9175, Best Acc 0.9325 Time: 1143.50s

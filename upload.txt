@@ -1,32 +1,10 @@
-## Template
-# 1. 初始化本地仓库
+# 1.生成requirements.txt
+
+cd /path/to/your/project
 git init
-# 2. 添加远程仓库
-git remote add origin https://github.com/your-username/my-project.git
-# 3. 添加文件到暂存区
-git add .
-# 4. 提交文件到本地仓库
-git commit -m "Initial commit"
-# 5. 推送到 GitHub
-git push -u origin main  # 如果分支是 master，则替换为 master
-##
 
-## 实操
-git --version
+touch .gitignore
+nano .gitignore
 
-git config --global user.name
-git config --global user.email
-git branch -m main # 更改当前仓库的分支名称为main
-git remote add origin git@github.com:youngwhite/ADP.git
-
-git status # 检查当前已添加的文件
-nano .gitignore # 使用 .gitignore 文件忽略不必要的文件或文件夹
-git add . # 将项目中的所有文件添加到 Git 暂存区
-git commit -m "初始提交ADP"  # "初始提交" 是提交的描述信息
-git push -u origin main
-
-
-
-
-
-
+git commit -m "更新 .gitignore 以忽略不必要的文件"
+git push
