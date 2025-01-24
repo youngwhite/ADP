@@ -533,3 +533,12 @@ num_heads: 12 head_dims: 64 all_head_size: 768
 --Epoch 12/30: Loss-t/v: 0.0145/0.2583, Acc-t/v: 0.8819/0.9100, Best Acc 0.9325 Time: 980.61s
 --Epoch 13/30: Loss-t/v: 0.0115/0.3249, Acc-t/v: 0.9050/0.9200, Best Acc 0.9325 Time: 1063.09s
 --Epoch 14/30: Loss-t/v: 0.0193/0.2717, Acc-t/v: 0.8444/0.9175, Best Acc 0.9325 Time: 1143.50s
+--Epoch 15/30: Loss-t/v: 0.0191/0.2554, Acc-t/v: 0.8475/0.9250, Best Acc 0.9325 Time: 1225.29s
+--Epoch 16/30: Loss-t/v: 0.0188/0.2363, Acc-t/v: 0.8475/0.9350, Best Acc 0.9350 Time: 1308.85s
+--Epoch 17/30: Loss-t/v: 0.0323/0.2888, Acc-t/v: 0.7369/0.9275, Best Acc 0.9350 Time: 1391.14s
+--Epoch 18/30: Loss-t/v: 0.0190/0.2739, Acc-t/v: 0.8431/0.9125, Best Acc 0.9350 Time: 1475.74s
+--Epoch 19/30: Loss-t/v: 0.0308/0.2083, Acc-t/v: 0.7588/0.9350, Best Acc 0.9350 Time: 1557.50s
+--Epoch 20/30: Loss-t/v: 0.0135/0.2317, Acc-t/v: 0.8931/0.9350, Best Acc 0.9350 Time: 1637.83s
+--Epoch 21/30: Loss-t/v: 0.0222/0.2349, Acc-t/v: 0.8250/0.9400, Best Acc 0.9400 Time: 1720.11s
+--Epoch 22/30: Loss-t/v: 0.0281/0.2607, Acc-t/v: 0.7825/0.9225, Best Acc 0.9400 Time: 1800.97s
+--Epoch 23/30: Loss-t/v: 0.0136/0.2345, Acc-t/v: 0.8888/0.9275, Best Acc 0.9400 Time: 1885.77s

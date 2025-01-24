@@ -6,5 +6,7 @@ git init
 touch .gitignore
 nano .gitignore
 
+git add .gitignore
 git commit -m "更新 .gitignore 以忽略不必要的文件"
-git push
+git push --force origin main #不需要远程的内容强行推送
+

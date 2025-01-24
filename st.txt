@@ -44,3 +44,10 @@ Pruned model to 11 layers.
 --Epoch 11/30: Train Loss 0.0002, Train Acc 1.0000, Val Loss 0.2533, Val Acc 0.9375, Best Acc 0.9375
 --Epoch 12/30: Train Loss 0.0002, Train Acc 1.0000, Val Loss 0.2533, Val Acc 0.9375, Best Acc 0.9375
 --Epoch 13/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2533, Val Acc 0.9375, Best Acc 0.9375
+--Epoch 14/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2535, Val Acc 0.9350, Best Acc 0.9375
+--Epoch 15/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2537, Val Acc 0.9350, Best Acc 0.9375
+--Epoch 16/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2540, Val Acc 0.9350, Best Acc 0.9375
+--Epoch 17/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2543, Val Acc 0.9350, Best Acc 0.9375
+--Epoch 18/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2546, Val Acc 0.9375, Best Acc 0.9375
+--Epoch 19/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2550, Val Acc 0.9375, Best Acc 0.9375
+--Epoch 20/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2554, Val Acc 0.9375, Best Acc 0.9375
