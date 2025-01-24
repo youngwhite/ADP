@@ -393,3 +393,4 @@ num_heads: 12 head_dims: 64 all_head_size: 768
 --Epoch 19/30: Loss-t/v: 0.0258/0.2403, Acc-t/v: 0.7956/0.9250, Best Acc 0.9425 Time: 1609.54s
 --Epoch 20/30: Loss-t/v: 0.0228/0.2303, Acc-t/v: 0.8156/0.9375, Best Acc 0.9425 Time: 1694.65s
 --Epoch 21/30: Loss-t/v: 0.0166/0.2260, Acc-t/v: 0.8644/0.9400, Best Acc 0.9425 Time: 1776.00s
+--Epoch 22/30: Loss-t/v: 0.0273/0.2048, Acc-t/v: 0.7750/0.9400, Best Acc 0.9425 Time: 1860.72s

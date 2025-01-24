@@ -18,13 +18,15 @@ git config --global user.name
 git config --global user.email
 git branch -m main # 更改当前仓库的分支名称为main
 git remote add origin git@github.com:youngwhite/ADP.git
+
+git status # 检查当前已添加的文件
+nano .gitignore # 使用 .gitignore 文件忽略不必要的文件或文件夹
 git add . # 将项目中的所有文件添加到 Git 暂存区
 git commit -m "初始提交ADP"  # "初始提交" 是提交的描述信息
 git push -u origin main
 
 
-git status # 检查当前已添加的文件
-nano .gitignore # 使用 .gitignore 文件忽略不必要的文件或文件夹
+
 
 
 
