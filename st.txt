@@ -25,3 +25,4 @@
 --Epoch 24/30: Train Loss 0.0001, Train Acc 1.0000, Val Loss 0.2500, Val Acc 0.9350, Best Acc 0.945
 --Epoch 25/30: Train Loss 0.0000, Train Acc 1.0000, Val Loss 0.2526, Val Acc 0.9350, Best Acc 0.945
 --Epoch 26/30: Train Loss 0.0000, Train Acc 1.0000, Val Loss 0.2556, Val Acc 0.9350, Best Acc 0.945
+--Epoch 27/30: Train Loss 0.0000, Train Acc 1.0000, Val Loss 0.2585, Val Acc 0.9350, Best Acc 0.945
