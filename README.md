@@ -2,8 +2,11 @@
 
 ## Overview
 
-**ADP (Adaptive Depth-wise Pruning)** is an adaptive and architecture-agnostic model compression framework specifically designed for ESC (Environmental Sound Classification) tasks. It dynamically partitions models into modular blocks and prunes them based on performance metrics, offering an efficient trade-off between model size and accuracy. ADP is particularly suitable for tasks with varying resource and accuracy requirements, making it flexible and robust.
+**ADP (Adaptive Depth-wise Pruning)** is an adaptive and architecture-agnostic model compression framework specifically designed for ESC (Environmental Sound Classification) tasks. It dynamically partitions models into modular blocks and prunes them based on performance metrics, offering an efficient trade-off between model size and accuracy. 
+## Framework: Pregressive Pruning AST with Dataset ESC-50 using ADP
+![Framework](adp-frame.png)
 
+ADP is particularly suitable for tasks with varying resource and accuracy requirements, making it flexible and robust.
 ## Key Features
 
 - **Architecture-agnostic**: Compatible with diverse model architectures.
